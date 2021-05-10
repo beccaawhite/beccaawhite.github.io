@@ -374,6 +374,11 @@ input, select, textarea {
 
 		}
 
+		.my-skills {
+			
+			padding: 25px;
+		}
+
 	label {
 		color: #ffffff;
 		display: block;
