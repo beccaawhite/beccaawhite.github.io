@@ -79,6 +79,60 @@ input, select, textarea {
 		text-decoration: aquamarine;
 	}
 
+
+	.portfolio-item {
+	}
+
+
+	.portcontainer {
+		position: relative;
+		width: 50%;
+	  }
+	  
+	  .portimage {
+		opacity: 1;
+		display: block;
+		width: 100%;
+		height: auto;
+		transition: .5s ease;
+		backface-visibility: hidden;
+	  }
+	  
+	  .portmiddle {
+		transition: .5s ease;
+		opacity: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		text-align: center;
+	  }
+	  
+	  .portcontainer:hover .portimage {
+		opacity: 0.3;
+	  }
+	  
+	  .portcontainer:hover .portmiddle {
+		opacity: 1;
+	  }
+	  
+	  .porttext {
+		background-color: #04AA6D;
+		color: white;
+		font-size: 16px;
+		padding: 4px 8px;
+		margin: 8px
+	  }
+
+	  .fa-external-link-alt {
+		
+	  }
+
+
+
+
+
 	@-ms-viewport {
 		width: device-width;
 	}
