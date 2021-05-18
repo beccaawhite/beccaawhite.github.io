@@ -76,18 +76,23 @@ input, select, textarea {
 
 	.resume {
 		text-align: center;
-		margin: 30px;
-		padding: 10px;
-		background-color: rgb(141, 105, 111);
-		border: white 2px solid;
+		margin: 50px;
 	}
 
-	.resume:hover {
-		text-align: center;
-		margin: 30px;
-		padding: 10px;
-		background-color: rgb(173, 157, 160);
-		border: white 2px solid;
+	.resume1:hover {
+		/* padding: 14px 20px; */
+		background-color: rgb(73, 79, 58);
+		border: 1px solid white;
+		font-weight: 600;	
+	}
+
+	.resume1{	
+		padding: 10px 15px;
+		border: 2px solid white;
+		border-radius: 8px;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+		font-weight: 500;	
 	}
 
 
@@ -128,12 +133,28 @@ input, select, textarea {
 	  }
 	  
 	  .porttext {
-		background-color: #49967a;
+		background-color: rgb(73, 79, 58);
 		color: white;
 		font-size: 16px;
 		padding: 4px 8px;
 		margin: 28px;
-		border-radius: 7px;
+		border-radius: 50px;
+	  }
+	  .porttext:hover {
+		  background-color: rgba(15, 15, 14, 0.89);
+	  }
+
+
+	  .contact {
+		  display: flex;
+		  justify-content: center;
+		  margin-top: 50px;
+		  padding: 10px;
+	  }
+
+	  .selfie {
+		  max-width: 300px;
+		  margin: auto;
 	  }
 
 	
@@ -686,6 +707,15 @@ input, select, textarea {
 		border-bottom: none;
 		position: relative;
 	}
+	.spec {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+		margin-left: 20px;
+		margin-right: 20px;
+		font-size: larger;
+	}
+	
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
@@ -715,6 +745,9 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+
+
+		
 
 /* Image */
 
@@ -1002,7 +1035,8 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: rgb(73, 79, 58);
+					font-size: 1.3rem;
 				}
 
 				ul.icons li a:active {
