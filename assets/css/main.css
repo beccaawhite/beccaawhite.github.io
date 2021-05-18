@@ -81,7 +81,7 @@ input, select, textarea {
 
 	.resume1:hover {
 		/* padding: 14px 20px; */
-		background-color: rgb(73, 79, 58);
+		background-color: rgba(73, 79, 58, 0.5);
 		border: 1px solid white;
 		font-weight: 600;	
 	}
@@ -1035,7 +1035,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					background-color: rgb(73, 79, 58);
+					background-color: rgba(73, 79, 58, 0.8);
 					font-size: 1.3rem;
 				}
 
