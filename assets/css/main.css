@@ -74,14 +74,23 @@ input, select, textarea {
 
 /* Basic */
 
-	#resume {
-		color: pink;
-		text-decoration: aquamarine;
+	.resume {
+		text-align: center;
+		margin: 30px;
+		padding: 10px;
+		background-color: rgb(141, 105, 111);
+		border: white 2px solid;
+	}
+
+	.resume:hover {
+		text-align: center;
+		margin: 30px;
+		padding: 10px;
+		background-color: rgb(173, 157, 160);
+		border: white 2px solid;
 	}
 
 
-	.portfolio-item {
-	}
 
 
 	.portcontainer {
@@ -107,6 +116,7 @@ input, select, textarea {
 		transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 		text-align: center;
+	
 	  }
 	  
 	  .portcontainer:hover .portimage {
@@ -118,17 +128,15 @@ input, select, textarea {
 	  }
 	  
 	  .porttext {
-		background-color: #04AA6D;
+		background-color: #49967a;
 		color: white;
 		font-size: 16px;
 		padding: 4px 8px;
-		margin: 8px
+		margin: 28px;
+		border-radius: 7px;
 	  }
 
-	  .fa-external-link-alt {
-		
-	  }
-
+	
 
 
 
@@ -433,9 +441,18 @@ input, select, textarea {
 
 		}
 
-		.my-skills {
+		
+
+		.skills-div {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
 			
-			padding: 25px;
+		}
+
+		.skills-div > div {
+			margin: 0px 14px 3px 14px;
+			text-align: center;	
 		}
 
 	label {
